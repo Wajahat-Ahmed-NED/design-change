@@ -1,0 +1,123 @@
+.error {
+    margin-left: 5%;
+    color: red;
+}
+
+.customInput1{
+    width: 215px;
+}
+.customInput2{
+    width: 215px;
+}
+.customInput5{
+    width: 187px;
+}
+.customInput6{
+    width: 187px;
+}
+
+.paymentInputDiv{
+    display: flex;
+    margin-bottom: 20px;
+    /* justify-content: flex-start; */
+}
+.paymentInputDiv > div{
+margin-left: 0px;
+}
+.paymentCancelText {
+    margin-left: 30%;
+   
+}
+.addPaymentText{
+    color: #6B3434;
+    font-family: Suranna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 105px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+}
+.ml0{
+    margin-left: 0% !important;
+}
+
+
+@media screen and (min-device-width: 1100px)  and (max-device-width: 1490px)  {
+    .column.is-half, .column.is-half-tablet {
+        flex: none;
+        width: 82%;
+    }
+    .addPaymentText {
+        
+        font-size: 48px;
+        margin-left: 28%;
+    }
+    .paymentInputDiv {
+        display: flex;
+        margin-left: 20% !important;
+        margin-bottom: 20px;
+         }
+         .paymentCancelText {
+            margin-left: 27% !important;
+        }
+  }
+
+  @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
+    .column.is-half {
+        flex: none;
+        width: 100%;
+    }
+    .addPaymentText {
+        
+        font-size: 40px;
+        margin-left: 26%;
+    }
+    .paymentInputDiv {
+        display: flex;
+        margin-left: 25% !important;
+        margin-bottom: 20px;
+         }
+         .paymentCancelText {
+            margin-left: 57% !important;
+        }
+        .customInput5 {
+            width: 140px;
+        }
+        .customInput6 {
+            width: 140px;
+        }
+        .register-form-layout {
+            margin-left: 29%;
+        }
+  }
+
+  @media screen and (min-device-width: 548px)  and (max-device-width: 768px) {
+    .column.is-half, .column.is-half-tablet {
+        flex: none;
+        width: 100%;
+    }
+    .addPaymentText {
+        
+        font-size: 48px;
+        margin-left: 26%;
+    }
+    .paymentInputDiv {
+        display: flex;
+        margin-left: -2% !important;
+        margin-bottom: 20px;
+         }
+         .paymentCancelText {
+            margin-left: 48% !important;
+        }
+        .customInput5 {
+            width: 335px;
+        }
+        .customInput6 {
+            width: 335px;
+        }
+
+    
+  }

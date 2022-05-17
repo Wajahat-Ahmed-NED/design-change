@@ -1,0 +1,18 @@
+.Toggle_btn{
+    display: none;
+}
+@media screen and (max-device-width: 576px)   {
+    .Toggle_btn{
+        display: block;
+        font-size: 30px;
+        color: #4B2929;
+    }
+    .headingMain {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        color: #6B3434;
+        line-height: 32px;
+    }
+  }

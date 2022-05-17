@@ -1,0 +1,204 @@
+.column.is-two-fifths,
+.column.is-two-fifths-tablet {
+    flex: none;
+    width: 45%;
+}
+
+.flagged-logs {
+    padding-left: 16px;
+}
+
+.flagged-logs>p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B3434;
+    margin-bottom: 24px;
+}
+
+.flagged-logs .Flagtable {
+    margin-bottom: 30px;
+}
+
+.flagged-logs .Flagtable>thead>tr>th {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #C6707030;
+    border: none;
+    color: #141414;
+}
+
+.flagged-logs .Flagtable>tbody>tr>td {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+    vertical-align: middle;
+    height: 45px;
+}
+
+.flagged-logs .name {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+}
+
+.flagged-logs .tableFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flagged-logs .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+
+.flagged-logs .text-button {
+    height: 28px;
+    width: auto;
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: #6B3434;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.flagged-logs .primary-button {
+    height: 28px;
+    width: 70px;
+    background: #36818B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.flagged-logs .secondary-button {
+    height: 28px;
+    width: 70px;
+    background: #C67070;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.delete-dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 233px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 6px 0px #00000040;
+    background: #FFFFFF;
+    padding: 10px;
+
+}
+
+.delete-dialog>p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #141414;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.delete-dialog .primary-button {
+    height: 28px;
+    width: 45%;
+    background: #36818B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.delete-dialog .secondary-button {
+    height: 28px;
+    width: 45%;
+    background: #C67070;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1490px) {}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1080px) {
+
+    .headingMain {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+    .heading_Main {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+}
+
+
+
+@media screen and (min-device-width: 425px) and (max-device-width: 700px) {}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 420px) {}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 360px) {}

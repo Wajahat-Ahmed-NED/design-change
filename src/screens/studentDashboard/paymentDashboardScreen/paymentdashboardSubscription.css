@@ -1,0 +1,127 @@
+.paymentInput{
+
+}
+.payIn{
+
+}
+.paymentInputDivDash{
+    display: flex;
+}
+.input-card {
+    width: 100%;
+    border: 1px solid #6B3434;
+    box-sizing:border-box;
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    border-radius: 4px;
+    background-color: #FFF;
+    line-height: 1.5;
+    height: 2.5em;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: calc(.75em - 1px);
+    padding-right: calc(.75em - 1px);
+    padding-top: calc(.5em - 1px);
+}
+.input-card:focus {
+    border-color: #485fc7;
+    box-shadow: 0 0 0 .125em rgba(72,95,199,.25);
+}
+.input-card:hover {
+    border-color: #b5b5b5;
+}
+.customInput3{
+    width: 100%;
+}
+.customInput4{
+    width: 100%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.paymentInputDashDiv {
+    display: flex;
+    margin-left: 0% !important;
+    margin-bottom: 20px;
+    /* justify-content: flex-start; */
+}
+.ml10{
+    margin-left: 18px;
+}
+
+
+
+@media screen and (min-device-width: 1100px)  and (max-device-width: 1490px)  {
+    .column.is-two-fifths {
+        flex: none;
+        width: 65% !important;
+    }
+}
+
+  @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
+
+    .column.is-two-fifths {
+        flex: none;
+        width: 80% !important;
+    }
+    .customInput1 {
+        width: 158px;
+    }
+    .customInput2 {
+        width: 158px;
+    }
+  }
+
+  @media screen and (min-device-width: 548px)  and (max-device-width: 768px) {
+  
+    .column.is-two-fifths {
+        flex: none;
+        width: 76% !important;
+    }
+    .customInput1 {
+        width: 158px;
+    }
+    .customInput2 {
+        width: 158px;
+    }
+  }
+
+  @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+  
+    .column.is-two-fifths {
+        flex: none;
+        width: 90% !important;
+    }
+    .customInput1 {
+        width: 158px;
+    }
+    .customInput2 {
+        width: 158px;
+    }
+    
+  }
+
+
+  @media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+    .column.is-two-fifths {
+        flex: none;
+        width: 100% !important;
+    }
+    .customInput1 {
+        width: 150px;
+    }
+    .customInput2 {
+        width: 150px;
+    }
+   
+  }
+  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    .column.is-two-fifths {
+        flex: none;
+        width: 100% !important;
+    }
+    .customInput1 {
+        width: 125px;
+    }
+    .customInput2 {
+        width: 125px;
+    }
+  }

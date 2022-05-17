@@ -1,0 +1,411 @@
+.column.is-one-fifths,
+.column.is-one-fifths-tablet {
+    flex: none;
+    width: 400px;
+}
+.monthly-document .label {
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #141414;
+margin-left: 0;
+margin-top: 60px;
+}
+.monthly-document .dropdownCustom {
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-color: #4B2929;
+    border-radius: 5px;
+    color: #141414;
+    height: 36px;
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+.selectBtn {
+    appearance: none;
+    display: inline;
+}
+
+.monthlyTable>tr>td {
+    border: none;
+}
+
+.monthlyTable>tr>td>select {
+    /* border:none; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #6B3434;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #6B3434;
+}
+
+.checkSize {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 10px;
+    margin-left: 0;
+}
+
+.select:not(.is-multiple) {
+    height: 35px;
+}
+
+.HRline {
+    width: 100%;
+    height: 0px;
+    left: 255px;
+    top: 640px;
+    border: 1px solid #6B3434;
+}
+
+.clr1 {
+    background: #81DFED;
+    border: 1px solid #81DFED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 68px;
+    margin: 5px 15px;
+    height: 22px;
+}
+
+.clr2 {
+    background: #62B4BF;
+    border: 1px solid #62B4BF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 68px;
+    height: 22px;
+    margin: 5px 15px;
+}
+
+.clr3 {
+    background: #36818B;
+    border: 1px solid #36818B;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 68px;
+    height: 22px;
+    margin: 5px 15px;
+}
+
+.secondSectionMonthlyDocumnet {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.ml160 {
+    margin-left: 200px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.secondSectionMonthlyDocumnet>div>p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B3434;
+
+}
+
+.colordtext>div>span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #6B3434;
+    padding: 0px;
+
+}
+
+.Heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #6B3434;
+
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.headerChart {
+    width: 100%;
+    height: 96px;
+    text-align: center;
+    display: flex;
+    background: #36818B;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+
+    background: #36818B;
+}
+
+.headerChart>p {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    font-variant: small-caps;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.contactAgendaInput {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.agendaSec1 {
+    display: flex;
+
+    /* justify-content: space-between; */
+}
+
+.agendaSec1>div>p {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #141414;
+    margin: 20px;
+
+}
+.checkbox-label {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    color: #141414;
+    margin: 20px;
+}
+.checkbox-label>span {
+    vertical-align: middle;
+
+}
+.subHeading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: #141414;
+}
+
+.agendasec2 {
+    display: flex;
+    justify-content: space-between;
+}
+.agenda-table>tr>th {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.agenda-table>tr>td {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.colSize1 {
+    width: 100px;
+}
+
+.checkText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #141414;
+
+}
+
+.textareA {
+    width: 100%;
+}
+
+table>tr>td {
+    color: black;
+}
+
+label {
+    color: black;
+}
+
+.dropdownCustomize {
+    width: 40%;
+}
+
+p,
+label {
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.inputagenda {
+    border: none;
+    border-bottom: 1px solid #B7B7B7;
+    margin-left: 15px;
+}
+
+.check {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.check>* {
+    width: 50%;
+    height: 30px;
+}
+
+.check>p {
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    /* identical to box height */
+
+
+    color: #141414;
+
+}
+
+.inputFlex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputagenda2 {
+    border: none;
+    border-bottom: 1px solid #B7B7B7;
+    width: 320px;
+}
+
+.agendaTable>table>tr>td {
+    height: 25px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #141414;
+    vertical-align: middle;
+}
+
+.agendaTable>table>tr>th {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.active {
+    color: #6B3434;
+    font-weight: bold;
+}
+
+
+.pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item>.pro-icon-wrapper {
+    margin-right: 10px;
+    font-size: 20px;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item>.pro-item-content {
+    flex-grow: 1;
+    font-size: 16px;
+    flex-shrink: 1;
+}
+
+/* .noBorder{
+    border: none;
+    border-collapse: collapse;
+    
+} */
+
+.agendaTableHeader {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #141414;
+    vertical-align: middle;
+
+}.agendaTableText {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #141414;
+
+}

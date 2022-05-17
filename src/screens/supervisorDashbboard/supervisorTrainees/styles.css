@@ -1,0 +1,229 @@
+.column.is-two-fifths,
+.column.is-two-fifths-tablet {
+    flex: none;
+    width: 45%;
+}
+
+.trainees {
+    padding-left: 16px;
+}
+
+.trainees>p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #6B3434;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.trainees .Traineetable {
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 7px 0px #00000040;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    border-collapse: collapse;
+  
+}
+
+.trainees .Traineetable>tr>th {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #36818B4D;
+    border: none;
+    color: #141414;
+}
+
+.trainees .Traineetable>tr>td {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+    vertical-align: middle;
+    height: 49px;
+    border: none;
+    padding: 0 25px;
+    background-color: transparent;
+}
+.trainees .Traineetable>tr {
+    height: 49px;
+}
+.trainees .Traineetable>tr:nth-child(even) {
+    background-color: #F6E9CD4D;
+}
+
+.trainees .name {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+        color: #36818B;
+}
+.trainees .delete-btn {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6B3434;
+}
+
+.trainees .tableFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainees .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+}
+
+.trainees .text-button {
+    height: 28px;
+    width: auto;
+    background: #FFFFFF;
+    border-radius: 30px;
+    color: #6B3434;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.trainees .primary-button {
+    height: 28px;
+    width: 70px;
+    background: #36818B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.trainees .secondary-button {
+    height: 28px;
+    width: 70px;
+    background: #C67070;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.delete-dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 233px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 6px 0px #00000040;
+    background: #FFFFFF;
+    padding: 10px;
+
+}
+
+.delete-dialog>p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #141414;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.delete-dialog .primary-button {
+    height: 28px;
+    width: 45%;
+    background: #36818B;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.delete-dialog .secondary-button {
+    height: 28px;
+    width: 45%;
+    background: #C67070;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1490px) {}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1080px) {
+
+    .headingMain {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+    .heading_Main {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+}
+
+
+
+@media screen and (min-device-width: 425px) and (max-device-width: 700px) {}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 420px) {}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 360px) {}

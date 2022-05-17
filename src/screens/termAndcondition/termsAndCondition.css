@@ -1,0 +1,10 @@
+.termAndCondText{
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    color: rgba(107, 52, 52, 0.8);
+}

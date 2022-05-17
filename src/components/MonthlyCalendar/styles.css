@@ -1,0 +1,149 @@
+.sdp,
+.stp {
+  --font: "Montserrat", sans-serif;
+  --shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  --shadow-md: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    #0000001a 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  --theme-color: #FFF;
+  --selected-date-color: #36818B;
+
+  --disabled-color: #bdbdbd;
+}
+.sdp {
+  width: 450px;
+  height: auto;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--theme-color);
+  padding: 0.75rem;
+  box-shadow: 0px 6px 9px 0px #14141442;
+
+}
+
+.sdp:focus,
+.sdp--month-name:focus,
+.sdp--square-btn:focus {
+  outline: none;
+}
+
+.sdp--text {
+  font-weight: 500;
+  font-size: 24px;
+  color: #141414;
+  margin: 5px;
+  font-family: var(--font);
+}
+
+.sdp--text__inactive {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFF;
+    pointer-events: none;
+}
+
+.sdp--square-btn {
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  border: none;
+  background-color: var(--theme-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: var(--font);
+}
+
+.sdp--square-btn:focus:hover {
+  box-shadow: none;
+}
+
+.sdp--square-btn__shadowed {
+  box-shadow: none;
+}
+
+.sdp--square-btn__shadowed:focus:hover {
+  box-shadow: none;
+}
+
+.sdp--date-btn__selected {
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: var(--font);
+  background-color: var(--selected-date-color);
+  color: #FFF2CC;
+}
+
+.sdp--date-btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  border: none;
+  background-color: var(--theme-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: var(--font);
+
+}
+
+.sdp--month-picker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  padding-bottom: 0;
+}
+.sdp--arrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sdp--dates-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin: 0.5rem 0 0;
+  justify-items: center;
+}
+
+.sdp--dates-grid > p.sdp--text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #14141450;
+  pointer-events: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+.sdp--month-name {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+}

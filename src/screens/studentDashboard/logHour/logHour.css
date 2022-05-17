@@ -1,0 +1,134 @@
+.logForm {
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+
+}
+
+.sectiondashboard {
+    min-height: 100vh;
+    height: 100%;
+}
+
+.logForm>label {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.logForm>input {
+    margin-top: 1px;
+    border: 1px solid #4B2929;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    padding: 5px 15px !important;
+
+}
+
+.logForm>select {
+    margin-top: 1px;
+    border: 1px solid #4B2929;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    padding: 5px 10px !important;
+
+}
+.Register__error {
+    margin-left: 1%;
+    color: red;
+    font-size: 12px;
+}
+
+.dropdownCustom {
+    box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+    height: 30px;
+}
+
+.logForm>textarea {
+    border: 1px solid #4B2929;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    padding: 20px !important;
+}
+
+.column.is-two-fifths,
+.column.is-two-fifths-tablet {
+    flex: none;
+    width: 45%;
+}
+
+.date-picker {
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #4B2929;
+}
+
+.date-picker:focus {
+    border-color: #485fc7;
+    box-shadow: 0 0 0 .125em rgba(72, 95, 199, .25);
+    outline: none;
+}
+
+.MuiOutlinedInput-root {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0px;
+    border: 1px solid #4B2929;
+}
+.MuiMultiselect{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #141414;
+}
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 1490px) {}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1080px) {
+
+    .headingMain {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+    .heading_Main {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        color: #6B3434;
+    }
+
+}
+
+
+
+@media screen and (min-device-width: 425px) and (max-device-width: 700px) {}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 420px) {}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 360px) {}

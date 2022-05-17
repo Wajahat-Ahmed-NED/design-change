@@ -1,0 +1,149 @@
+.sectiondashboard{
+    display: flex;
+    height: 100vh;
+}
+
+.pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+    background-color: transparent;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+}
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+
+element.style {
+}
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 15px;
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 45px;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+ul {
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.pro-sidebar {
+    color:#6B3434CC;
+}
+.headingMain{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+
+
+
+
+color: #6B3434;
+
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+    color:#6B3434 ;
+ }
+ .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+    border-bottom: none;
+}
+.pera{
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B3434;
+}
+
+.heading2nd{
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #6B3434;
+}
+.heading3rd{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #6B3434;
+}
+
+.mt40{
+    margin-top: 40px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt80{
+    margin-top: 80px;
+}
+
+.dashBtn{
+    background-color: #36818B;
+    color: #fff;
+    width: 60%;
+}
+
+.changelink{
+color: #36818B;
+    
+    width: 50%;
+
+}
+.pro-sidebar .pro-menu {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

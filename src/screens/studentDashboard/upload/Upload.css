@@ -1,0 +1,39 @@
+
+
+
+  @media screen and (min-device-width: 548px)  and (max-device-width: 768px) {
+    .attachment {
+        background: rgba(247, 233, 205, 0.3);
+        border: 1px dashed #C4C4C4;
+        box-sizing: border-box;
+        width: 430px !important;
+        height: 190px;
+    }
+  }
+
+  @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+    .attachment {
+     
+      width: 360px !important;
+      height: 190px;
+  }
+
+  }
+
+
+  @media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+    .attachment {
+     
+      width: 330px !important;
+      height: 190px;
+  }
+   
+  }
+  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    .attachment {
+     
+      width: 270px !important;
+      height: 190px;
+  }
+  
+  }

@@ -1,0 +1,219 @@
+.Register__error {
+    margin-left: 1%;
+    color: red;
+}
+
+.terms-checkbox {
+    width: 16px;
+    height: 16px;
+
+}
+.register-checkbox-text {
+    margin-left: 16px;
+    word-wrap: break-word;
+    font-size: small;
+    text-align: right;
+
+}
+
+.has-left-background {
+    background-image: url('../../assets/left_side_background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 100vh;
+}
+
+@media screen and (min-device-width: 1100px)  and (max-device-width: 1490px)  {
+    .register-image {
+        width: 271px;
+        height: 147px;
+    }
+    .registration-text {
+       
+        font-size: 48px;
+       
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .register-form-layout {
+        margin-left: 23%;
+    }
+    .register-form-layout2 {
+        margin-left: 0%;
+    }
+    .register-terms-layout {
+        margin-left: 5%;
+        width: 80%;
+        color: #6B3434;
+    }
+    .register-terms-layout2 {
+        margin-left: 20px;
+        width: 80%;
+        color: #6B3434;
+    
+    }
+    .checkbox {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        color: #6B3434;
+        font-size: 14px;
+        margin-left: 30%;
+    }
+    .checkbox2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        color: #6B3434;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .signup-text {
+        margin-left: 20px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+  }
+  .column.is-half {
+    flex: none;
+    width: 70%;
+}
+
+  @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
+    .column.is-half {
+        flex: none;
+        width: 70%;
+    }
+    .register-image {
+        width: 271px;
+        height: 147px;
+    }
+    .registration-text {
+       
+        font-size: 48px;
+       
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .register-form-layout {
+        margin-left: 40%;
+    }
+   
+    .checkbox {
+       
+        font-size: 14px;
+        margin-left: 18%;
+    }
+    .signup-text {
+        margin-left: 20px;
+    }
+  
+    
+  }
+
+  @media screen and (min-device-width: 548px)  and (max-device-width: 768px) {
+    .column.is-half {
+        flex: none;
+        width: 70%;
+    }
+
+    .register-image {
+        width: 271px;
+        height: 147px;
+    }
+    .registration-text {
+       
+        font-size: 48px;
+       
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        }
+    .register-form-layout {
+        margin-left: 0%;
+    }
+  }
+
+  @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+
+    .register-form-layout {
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+
+    .register-form-layout {
+        margin-left: 0%;
+    }
+    .signup-text {
+        margin-left: 20px;
+        font-size: 14px;
+       
+    }
+    .register-checkbox-text {
+        /* margin-left: 4%; */
+        word-wrap: break-word;
+        font-size: 10px !important;
+        text-align: center;
+
+    }
+    .checkbox {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        color: #6B3434;
+        font-size: 9px !important;
+    }
+}
+
+@media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    .register-image {
+        width: 271px;
+        height: 147px;
+        margin-left: 0%;
+    }
+    .register-form-layout {
+        margin-left: 0%;
+    }
+    .register-checkbox-text {
+        /* margin-left: 4%; */
+        word-wrap: break-word;
+        font-size: 8px !important;
+        text-align: center;
+    }
+    .checkbox {
+       
+        font-size: 9px !important;
+    }
+    .signup-text {
+        margin-left: 20px;
+        font-size: 14px;
+       
+    }
+    .registration-text {
+       
+        font-size: 35px;
+        margin-left: 12%;
+    }
+}
+
+/* @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+
+}
+
+
+@media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+
+}
+
+@media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+
+
+} */

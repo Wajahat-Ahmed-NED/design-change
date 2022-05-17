@@ -1,0 +1,88 @@
+.backlink{
+    color: #6B3434;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 17px;
+margin-right: 10px;
+margin-left: -20px;
+}
+.ml50{
+    margin-left: 50px;
+}
+.editText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+color: #C67070;
+}
+
+.panel {
+    border-radius: 0px !important;
+    box-shadow: 0 0.5em 1em -0.125em transparent;
+    font-size: 1rem;
+}
+@media screen and (min-device-width: 538px)  and (max-device-width: 980px) {
+  
+    .subsCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .headingMain {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        color: #6B3434;
+        line-height: 32px;
+    }
+    .ml50{
+        margin-left: 12px;
+    }
+    
+}
+@media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+  
+    .subsCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .ml50{
+        margin-left: 12px;
+    }
+    
+}
+
+
+@media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+    .subsCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .ml50{
+        margin-left: 12px;
+    }
+    
+ 
+}
+@media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    .subsCard {
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-head {
+        width: 269px;
+        height: 217px;
+        border: 3px solid #C67070;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .ml50{
+        margin-left: 12px;
+    }
+    
+}

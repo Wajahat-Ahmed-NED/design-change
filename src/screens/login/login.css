@@ -1,0 +1,365 @@
+.has-background {
+    background-image: url('../../assets/right_side_background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height: 100vh;
+}
+
+.section {
+    width: 100%;
+}
+
+.has-left-background {
+    background-image: url('../../assets/left_side_background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 100vh;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-me-layout {
+    margin-left: 4%;
+    width: 100vh;
+    color: #6B3434;
+
+}
+
+.forgot-pass {
+    color: #6B3434;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.welcome-text {
+    
+margin-left: 110px;
+font-family: Suranna;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 105px;
+color: #6B3434;
+
+}
+
+
+.registration-text {
+    color: #6B3434;
+    font-family: Suranna;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 105px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+
+}
+
+.register-image {
+    width: 271px;
+    height: 147px;
+    margin-left: 12%;
+}
+
+.label {
+    color: #6B3434;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    margin-left: 15px;
+}
+
+.has-input-background {
+  
+    border: 1px solid #C67070;
+box-sizing: border-box;
+
+}
+
+.signin-button {
+    background-color: #36818B;
+  
+    width: 100%;
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #FFFFFF;
+}
+
+.form-layout {
+    margin-left: 2%;
+}
+
+.register-form-layout {
+    margin-left: 5%;
+}
+
+.signup-text {
+    margin-left: 12%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+   
+
+
+    color: #6B3434;
+    
+}
+.log-text{
+    margin-left: 6%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+   
+
+
+    color: #6B3434;
+}
+.Logo{
+    width: 271px;
+height: 147px;
+margin-left: 30%;
+}
+.row-flex .checkbox{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #6B3434;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.customFlex{
+   
+    width: 500px;
+}
+
+
+
+
+
+
+
+  @media screen and (min-device-width: 1100px)  and (max-device-width: 1490px)  {
+    .Logo {
+        width: 271px;
+        height: 147px;
+        margin-left: 20%;
+    }
+    .welcome-text {
+        margin-left: 50px;
+        
+    }
+    .log-text {
+        margin-left: 3%;
+        
+    }
+    .customFlex {
+        
+        width: 307px;
+    }
+    .signup-text {
+        margin-left: 0%;
+       
+    }
+    .forgot-password-text-sub {
+       
+        margin-left: 63px ;
+    }
+    
+  }
+
+  @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
+    
+    .column.is-one-quarter, .column.is-one-quarter-tablet {
+        flex: none;
+        width: 45%;
+    }
+    .forgot-password-text-sub {
+       
+        margin-left: 50px !important;
+    }
+    .Logo {
+        width: 271px;
+        height: 147px;
+        margin-left: 18%;
+    }
+    .welcome-text {
+        margin-left: 70px;
+        
+    }
+    /* .InputSize{
+        width: 140%;
+    } */
+    .log-text {
+        margin-left: 7%;
+        
+    }
+    .customFlex {
+        
+        width: 600px;
+        margin-left: -12px;
+    }
+    .signup-text {
+        margin-left: 0%;
+       
+    }
+    .cancel-text {
+        
+        margin-left: 20% !important;
+        
+    }
+    
+  }
+
+  @media screen and (min-device-width: 548px)
+  and (max-device-width: 768px) {
+  
+    .welcome-text {
+        margin-left: 30%;
+        
+    }
+    .customFlex {
+        
+        width: 307px;
+    }
+    .signup-text {
+        margin-left: 30%;
+       
+    }
+    .log-text {
+        margin-left: 30%;
+        
+    }
+   
+  }
+
+ 
+
+  @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
+    .welcome-text {
+        margin-left: 12%;
+        
+    }
+    .Logo {
+        width: 271px;
+        height: 147px;
+        margin-left: 15%;
+    }
+    .customFlex {
+        
+        width: 307px;
+    }
+    .signup-text {
+        margin-left: 12%;
+       
+    }
+
+    .log-text {
+        margin-left: 12%;
+        
+    }
+    .form-layout {
+        margin-left: 0%;
+    }
+    .forgot-password-text-sub {
+        
+        font-size: 12px;
+        line-height: 15px;
+        
+        margin-left: 10px !important;
+    }
+  }
+
+
+  @media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
+    .welcome-text {
+        margin-left: 9%;
+        
+    }
+    .forgot-password-text-sub {
+       
+        font-size: 12px;
+        line-height: 15px;
+       
+        margin-left: 10px !important;
+    }
+    .Logo {
+        width: 271px;
+        height: 147px;
+        margin-left: 12%;
+    }
+    .customFlex {
+        
+        width: 307px;
+    }
+    .signup-text {
+        margin-left: 9%;
+       
+    }
+    .form-layout {
+        margin-left: 0%;
+    }
+    .log-text {
+        margin-left: 9%;
+        
+    }
+  }
+  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    .welcome-text {
+        margin-left: 9%;
+        font-size: 35px;
+        
+    }
+    .forgot-password-text-sub {
+       
+        font-size: 12px;
+        line-height: 15px;
+      
+        
+       
+        margin-left: 10px;
+    }
+    .Logo {
+        width: 271px;
+        height: 147px;
+        margin-left: 5%;
+    }
+    .form-layout {
+        margin-left: 0%;
+    }
+    .customFlex {
+        
+        width: 307px;
+    }
+    .signup-text {
+        margin-left: 7%;
+       
+    }
+    .log-text {
+        margin-left: 7%;
+        font-size: 14px;
+        
+    }
+  }
+   
