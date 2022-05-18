@@ -86,7 +86,7 @@ const Login = () => {
       </div>
       <div className="columns">
         <div className="column">
-          <p className="welcome-text">Welcome back!</p>
+          <p className="welcome-text">Welcome back!, {role === "student" ? "Trainee" : "Supervisor"} </p>
         </div>
       </div>
       <form onSubmit={formik.handleSubmit}>

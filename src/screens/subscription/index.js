@@ -14,7 +14,7 @@ const Subcription = () => {
   const isLoading = useIsLoading();
 
   useDispatchEffect(fetchSubscriptions, null, subscriptions?.length == 0);
-  
+
   const [selected, setSelected] = useState(null);
 
   return (
@@ -29,43 +29,43 @@ const Subcription = () => {
           </div>
 
           <div className="row subsCard mt60">
-          {
-            isLoading ? 
-            <LoadingSpinner style={{ height: '230px', width: '50%'}}/> 
-            :
-            subscriptions.map(item => (
-            <div className="col-md-4 col-lg-4 col-sm-4" key={item.id}>
-              <label>
-              <input
-                type="radio"
-                name="subscription"
-                className="card-input-element"
-                onClick={_ => { setSelected(item.id) }}
-                />
+            {
+              isLoading ?
+                <LoadingSpinner style={{ height: '230px', width: '50%' }} />
+                :
+                subscriptions.map(item => (
+                  <div className="col-md-4 col-lg-4 col-sm-4" key={item.id}>
+                    <label>
+                      <input
+                        type="radio"
+                        name="subscription"
+                        className="card-input-element"
+                        onClick={_ => { setSelected(item.id) }}
+                      />
 
-                <div className="panel panel-default card-input">
-                  <div className="panel-head">
-                    <p className="subtitle">{ item.name }</p>
-                    <h1
-                      className="title"
-                      style={{ marginTop: 40, marginBottom: 25 }}
-                    >
-                      <sub style={{ fontSize: 25 }}>$</sub> {item.price}
-                    </h1>
-                    <p className="subtitle2">{item.period === 'Month' ? `$${(item.price*12).toFixed(2)}/Year` : `$${(item.price/12).toFixed(2)}/Month`}</p>
+                      <div className="panel panel-default card-input">
+                        <div className="panel-head">
+                          <p className="subtitle">{item.name}</p>
+                          <h1
+                            className="title"
+                            style={{ marginTop: 40, marginBottom: 25 }}
+                          >
+                            <sub style={{ fontSize: 25 }}>$</sub> {item.price}
+                          </h1>
+                          <p className="subtitle2">{item.period === 'Month' ? `$${(item.price * 12).toFixed(2)}/Year` : `$${(item.price / 12).toFixed(2)}/Month`}</p>
+                        </div>
+                      </div>
+                    </label>
                   </div>
-                </div>
-              </label>
-            </div>
-            ))
-          }
+                ))
+            }
           </div>
 
           <div className="columns register-form-layout1 mt120">
             <div className="column ">
               <a
                 className="button is-large continue-button is-rounded signin-button size_btn"
-                onClick={_ => navigate('/payment?subscription='+selected)}
+                onClick={_ => navigate('/payment?subscription=' + selected)}
               >
                 Continue
               </a>
