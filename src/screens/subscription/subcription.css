@@ -22,18 +22,21 @@
     width: 287px;
 height: 217px;
 padding: 30px;
-border: 3px solid #C67070;
+border: 2px solid #D39FB2;
 box-sizing: border-box;
 border-radius: 20px;
 }
 
+.continue-button{
+    width: 320px;
+}
 
 .container {
     max-width: 900px;
     margin: 0 auto;
   }
   .Subscription-text {
-    color: #6B3434;
+    color: #141414;
     font-family: Suranna;
     font-style: normal;
     font-weight: normal;
@@ -69,8 +72,8 @@ border-radius: 20px;
   }
   
   .card-input-element:checked + .card-input {
-       background: #36818B;
-        border: 3px solid #36818B;
+       background: #D39FB2;
+        border: 3px solid #D39FB2;
         box-sizing: border-box;
         border-radius: 20px;
    }
@@ -95,7 +98,7 @@ border-radius: 20px;
     font-size: 18px;
     line-height: 22px;
    text-align: center;
-    color: #6B3434;
+    color: #141414;
    }
    .subtitle2{
     font-family: Montserrat;
@@ -103,7 +106,7 @@ border-radius: 20px;
     font-size: 18px;
     line-height: 22px;
    text-align: center;
-    color: #6B3434;
+    color: #141414;
    }
 
    .title{
@@ -115,7 +118,7 @@ border-radius: 20px;
     text-align: center;
     /* margin-top: 80px; */
     
-    color: #36818B;
+    color: #D37498;
 
     
    }
@@ -144,7 +147,7 @@ border-radius: 20px;
         margin-left: 42% !important;
     }
     .Subscription-text {
-        color: #6B3434;
+        color: #141414;
         font-family: Suranna;
         font-style: normal;
         font-weight: normal;

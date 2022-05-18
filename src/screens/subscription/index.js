@@ -64,7 +64,7 @@ const Subcription = () => {
           <div className="columns register-form-layout1 mt120">
             <div className="column ">
               <a
-                className="button is-large is-rounded signin-button size_btn"
+                className="button is-large continue-button is-rounded signin-button size_btn"
                 onClick={_ => navigate('/payment?subscription='+selected)}
               >
                 Continue

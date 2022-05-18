@@ -55,7 +55,7 @@ const PasswordChangeProfile = () => {
   });
 
   return (
-      <div className="section has-background">
+      <div className="section has-light-background">
         <div className="columns">
           <div className="column"></div>
         </div>
@@ -82,7 +82,7 @@ const PasswordChangeProfile = () => {
               <div className="column is-one-quarter">
                 <label className="label mt60">Current Password</label>
                 <input
-                  className="input is-rounded has-input-background"
+                  className="input has-input-background"
                   type="password"
                   placeholder="Enter password"
                   name="oldPassword"
@@ -100,7 +100,7 @@ const PasswordChangeProfile = () => {
               <div className="column is-one-quarter">
                 <label className="label">New Password</label>
                 <input
-                  className="input is-rounded has-input-background"
+                  className="input has-input-background"
                   type="password"
                   placeholder="Enter password"
                   name="password"
@@ -118,7 +118,7 @@ const PasswordChangeProfile = () => {
               <div className="column is-one-quarter">
                 <label className="label">Confirm New Password</label>
                 <input
-                  className="input is-rounded has-input-background"
+                  className="input has-input-background"
                   type="password"
                   placeholder="Enter password"
                   name="confirmPassword"
@@ -133,7 +133,7 @@ const PasswordChangeProfile = () => {
               </div>
             </div>
 
-            <div className="column  is-one-quarter ">
+            <div className="column is-one-quarter ">
               <button
                 className="button is-large is-rounded dashBtn"
                 type="submit"

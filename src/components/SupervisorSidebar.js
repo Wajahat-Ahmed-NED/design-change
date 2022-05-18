@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
 import { SidebarHeader, SidebarContent } from 'react-pro-sidebar';
-import logo from '../assets/home.png';
+import logo from '../assets/title.png';
 import { BsPencilSquare, BsPeopleFill } from 'react-icons/bs';
 import { CgProfile } from 'react-icons/cg';
 import { FaClipboardList } from 'react-icons/fa';
@@ -37,12 +37,12 @@ export default function SupervisorSidebar() {
           toggled={showSidebar}
           onToggle={() => dispatch(setShowSidebar(!showSidebar))}
             >
-          <SidebarHeader style={{ backgroundColor: '#FFF2CC' }}>
+          <SidebarHeader style={{ backgroundColor: '#F4DEEA' }}>
             <figure>
               <img src={logo} alt="Melton Hill Lake" />
             </figure>
           </SidebarHeader>
-          <SidebarContent style={{ backgroundColor: '#FFF2CC' }}>
+          <SidebarContent style={{ backgroundColor: '#F4DEEA' }}>
             <Menu iconShape="square mt60">
               <MenuItem icon={<BsPencilSquare />} active={activeItem===1} onClick={() => setActiveItem(1)}>
                 Sign logs

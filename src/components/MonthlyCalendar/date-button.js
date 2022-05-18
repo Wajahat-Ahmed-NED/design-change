@@ -19,7 +19,7 @@ const DateButton = ({ date, active, onClick, selected, workday }) => (
           width: "7px",
           height: "7px",
           borderRadius: "8px",
-          backgroundColor: workday ? "#36818B" : "#FFF",
+          backgroundColor: workday ? "#D37498" : "#FFF",
           marginTop: "2px",
         }}
       />

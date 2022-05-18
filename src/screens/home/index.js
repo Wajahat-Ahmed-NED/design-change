@@ -1,5 +1,6 @@
 import './home.css';
 import logo from '../../assets/home.png';
+import bottomLogo from '../../assets/bottomLogo.png';
 import { useNavigate, Navigate } from 'react-router-dom';
 import { setUserIsSupervisor, useAuhToken, useIsSupervisor } from '../../redux/reducers/AuthReducer';
 import { useDispatch } from 'react-redux';
@@ -23,11 +24,19 @@ const Home = () => {
       <div className="container">
         <div className="columns is-centered is-horizontal-center">
           <div className="column is-centered columns is-multiline">
+            <div className='columns is-flex-direction-column is-align-items-center'>
             <img
               src={logo}
               alt="Melton Hill Lake"
               className="column is-centered is-half log"
             />
+            <img
+              src={bottomLogo}
+              alt="Melton Hill Lake"
+              className="column is-centered is-half log bottom-logo"
+            />
+            </div>
+           
             <div className="is-centered column is-full columns">
               <p
                 style={{ textAlign: 'center' }}

@@ -22,8 +22,9 @@
     padding-top: calc(.5em - 1px);
 }
 .input-card:focus {
-    border-color: #485fc7;
-    box-shadow: 0 0 0 .125em rgba(72,95,199,.25);
+    border-color: 
+    #D39FB2;
+    box-shadow: 0 0 0 .125em rgba(184, 100, 149, 0.25);
 }
 .input-card:hover {
     border-color: #b5b5b5;

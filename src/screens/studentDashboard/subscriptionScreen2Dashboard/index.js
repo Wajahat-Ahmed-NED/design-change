@@ -27,7 +27,7 @@ const SubscriptionScreen2 = () => {
   const [selected, setSelected] = useState(userSubscription?.subscription?.id);
   
   return (
-      <div className="section has-background">
+      <div className="section has-light-background">
         <div className="columns">
           <div className="column"></div>
         </div>

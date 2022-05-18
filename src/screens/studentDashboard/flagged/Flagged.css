@@ -12,13 +12,14 @@ table {
   }
   table>tr>th{
       
-      background: rgba(54, 129, 139, 0.3);
+      background: #F4DEEA;
       border: none;
       text-align: center;
     
   }
   .Flagtable>tr>th{
-   background-color: #C6707030;
+   background-color: 
+   #F4DEEA;
     border: none;
     text-align: center;
   }
@@ -35,7 +36,7 @@ table {
     /* identical to box height */
     
     
-    color: #36818B;
+    color: #D37498;
   }
 
   .editSpanTable{
@@ -51,7 +52,8 @@ color: #C67070;
 
   }
   .barTableHeader{
-    background: aliceblue;
+    background: 
+    #D37498;
 border: 1px solid #B7B7B7;
 box-sizing: border-box;
   }

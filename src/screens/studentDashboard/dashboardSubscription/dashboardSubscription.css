@@ -20,8 +20,6 @@
     margin-bottom: 30px;
 }
 
-element.style {
-}
 .pro-sidebar .pro-menu .pro-menu-item {
     font-size: 15px;
     margin-top: 10px;
@@ -64,7 +62,7 @@ ul {
     list-style-type: disc;
 }
 .pro-sidebar {
-    color:#6B3434CC;
+    color:  #2F2E2E;
 }
 .headingMain{
     font-family: Montserrat;
@@ -75,11 +73,11 @@ font-size: 36px;
 
 
 
-color: #6B3434;
+color:  #2F2E2E;
 
 }
 .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
-    color:#6B3434 ;
+    color: #2F2E2E ;
  }
  .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
     border-bottom: none;
@@ -91,7 +89,7 @@ color: #6B3434;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #6B3434;
+    color:  #2F2E2E;
 }
 
 .heading2nd{
@@ -103,7 +101,7 @@ font-weight: 600;
 font-size: 24px;
 line-height: 29px;
 
-color: #6B3434;
+color:  #2F2E2E;
 }
 .heading3rd{
     font-family: 'Montserrat';
@@ -114,7 +112,7 @@ line-height: 22px;
 /* identical to box height */
 
 
-color: #6B3434;
+color:  #2F2E2E;
 }
 
 .mt40{
@@ -131,13 +129,13 @@ color: #6B3434;
 }
 
 .dashBtn{
-    background-color: #36818B;
+    background-color: #D37498;
     color: #fff;
     width: 60%;
 }
 
 .changelink{
-color: #36818B;
+color: #D37498;
     
     width: 50%;
 

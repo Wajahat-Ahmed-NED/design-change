@@ -1,4 +1,4 @@
-import logo from "../../assets/home.png";
+import logo from "../../assets/title.png";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -94,7 +94,7 @@ const Login = () => {
           <div className="column is-one-quarter">
             <label className="label">Email</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="text"
               name="name"
               value={formik.values.name}
@@ -110,7 +110,7 @@ const Login = () => {
           <div className="column is-one-quarter">
             <label className="label">Password</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="password"
               name="password"
               value={formik.values.password}

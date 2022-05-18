@@ -4,7 +4,7 @@
 .profile .primary-button {
     height: 46px;
     width: 204px;
-    background: #36818B;
+    background: #D37498;
     border-radius: 30px;
     color: #FFFFFF;
     font-family: Montserrat;
@@ -36,5 +36,5 @@ letter-spacing: 0em;
 text-align: left;
 color: #6B3434;
 height: 36px;
-border-radius: 20px;
+/* border-radius: 20px; */
 }

@@ -80,7 +80,7 @@ const LogDetails = () => {
    )
 
   return (
-      <div className="section has-background">
+      <div className="section has-light-background">
         <div className="columns ">
           <div className="column is-three-fifths">
             <button

@@ -30,7 +30,7 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
-    background-color: #36818B4D;
+    background-color: #F4DEEA;
     border: none;
     color: #141414;
 }
@@ -87,7 +87,7 @@
 .date-logs .primary-button {
     height: 28px;
     width: 70px;
-    background: #36818B;
+    background: #D37498;
     border-radius: 30px;
     color: #FFFFFF;
     font-family: Montserrat;
@@ -101,7 +101,8 @@
 .date-logs .secondary-button {
     height: 28px;
     width: 70px;
-    background: #C67070;
+    background: 
+    #2F2E2E;
     border-radius: 30px;
     color: #FFFFFF;
     font-family: Montserrat;

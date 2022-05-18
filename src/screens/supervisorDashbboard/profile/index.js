@@ -40,7 +40,7 @@ const ProfileScreen = () => {
 
 
   return (
-      <div className="section has-background">
+      <div className="section has-light-background">
         <div className="columns">
           <div className="column"></div>
         </div>
@@ -175,7 +175,7 @@ const EditForm = ({ onSave }) => {
     <form onSubmit={formik.handleSubmit}>
       <p className="label mt60">Name</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         name="name"
         value={formik.values.name}
         onChange={formik.handleChange}
@@ -183,7 +183,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">Email</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         name="email"
         value={formik.values.email}
         onChange={formik.handleChange}
@@ -191,7 +191,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">Supervisor Qualification</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         name="supervisor_qualification"
         value={formik.values.supervisor_qualification}
         onChange={formik.handleChange}
@@ -199,7 +199,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">BACB Account ID Number</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         name="bacb_account_number"
         value={formik.values.bacb_account_number}
         onChange={formik.handleChange}
@@ -207,7 +207,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">BACB Certification ID Number</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         name="bacb_certification_number"
         value={formik.values.bacb_certification_number}
         onChange={formik.handleChange}
@@ -215,7 +215,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">Date Qualified to Supervise</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         type='date'
         name="date_qualified"
         value={formik.values.date_qualified}
@@ -224,7 +224,7 @@ const EditForm = ({ onSave }) => {
       />
       <p className="label mt30">Date of Supervision Contract</p>
       <input
-        className="input is-rounded has-input-background text-input"
+        className="input has-input-background text-input"
         type='date'
         name="date_contract"
         value={formik.values.date_contract}

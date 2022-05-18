@@ -4,7 +4,7 @@ import 'react-pro-sidebar/dist/css/styles.css';
 import './PromptScreen.css';
 import { SidebarHeader, SidebarContent } from 'react-pro-sidebar';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/home.png';
+import logo from '../../assets/title.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 import { BsPencilSquare, BsFillHandIndexFill } from 'react-icons/bs';
@@ -24,12 +24,12 @@ const PromptScreen = () => {
           toggled={showSidebar}
           onToggle={() => setShowSidebar(!showSidebar)}
         >
-          <SidebarHeader style={{ backgroundColor: '#FFF2CC' }}>
+          <SidebarHeader style={{ backgroundColor: '#f4deea' }}>
             <figure>
               <img src={logo} alt="Melton Hill Lake" />
             </figure>
           </SidebarHeader>
-          <SidebarContent style={{ backgroundColor: '#FFF2CC' }}>
+          <SidebarContent style={{ backgroundColor: '#f4deea' }}>
             <Menu iconShape="square mt60">
               <MenuItem icon={<BsPencilSquare />}>
                 Log experience hours

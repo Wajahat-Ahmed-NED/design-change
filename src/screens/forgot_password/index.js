@@ -1,6 +1,6 @@
 import './forget-password.css';
 import { useFormik } from 'formik';
-import logo from '../../assets/home.png';
+import logo from '../../assets/title.png';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { fetchToken, headers, server } from '../../helpers/constants';
@@ -87,7 +87,7 @@ const ForgotPassword = () => {
           <div className="column is-one-quarter">
             <label className="label">Email</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="text"
               placeholder="Enter email"
               name="email"

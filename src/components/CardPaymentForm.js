@@ -70,7 +70,7 @@ const CardPaymentForm = ({ onSuccess }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="columns ">
-        <div className="column is-two-fifths">
+        <div className="column">
           <label className="label ml0">
             Card number
           </label>
@@ -84,7 +84,7 @@ const CardPaymentForm = ({ onSuccess }) => {
       </div>
         
       <div className="columns">
-        <div className="column is-two-fifths">
+        <div className="column">
         <div style={{ display: 'flex'}}>
           <div style={{ display: 'flex', flexDirection: "column", flex: 1 }}>
             <label className="label ml0">Expiration date</label>
@@ -106,19 +106,21 @@ const CardPaymentForm = ({ onSuccess }) => {
         </div>
       </div>
         <div className="columns ">
-            <div className="column is-two-fifths">
+            <div className="column ">
             <label className="label ml0">Card holder name</label>
-            <input className="input  has-input-background" type="text" name='cardholderName' value={cardholder} onChange={handleChange}/>
+            <input className="input has-input-background" type="text" name='cardholderName' value={cardholder} onChange={handleChange}/>
             </div>
         </div>
-
-        <div className="column is-two-fifths mt10">
+        <div className="columns is-centered">
+        <div className="column">
           <button
+          style={{ textAlign: 'center' }}
             className="button is-large is-rounded dashBtn"
             type="submit" disabled={!stripe}
             >
             Pay
           </button>
+        </div>
         </div>
 
     </form>

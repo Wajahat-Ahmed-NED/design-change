@@ -115,7 +115,7 @@ const LogHour = () => {
     )
 
   return (
-      <div className="section has-background">
+      <div className="section">
         <div className="columns ">
           <div className="column is-three-fifths">
             <button

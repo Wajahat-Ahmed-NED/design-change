@@ -52,7 +52,7 @@ const Payment = props => {
           </div>
 
           <div className="columns">
-            <div className="column is-half" style={{ marginLeft: '24%'}}>
+            <div className="column is-half">
               <CardPaymentForm onSuccess={onTokenGenerated} />
             </div>
           </div>

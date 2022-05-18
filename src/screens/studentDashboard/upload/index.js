@@ -16,7 +16,7 @@ const Upload = () => {
 
 
   return (
-      <div className="section has-background">
+      <div className="section has-light-background">
         <div className="columns">
           <div className="column"></div>
         </div>

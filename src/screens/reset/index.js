@@ -1,6 +1,6 @@
 import './reset.css';
 import axios from 'axios';
-import logo from '../../assets/home.png';
+import logo from '../../assets/title.png';
 import { useNavigate } from 'react-router-dom';
 import { fetchToken, headers, server } from '../../helpers/constants';
 import { useFormik } from 'formik';
@@ -86,7 +86,7 @@ const Reset = props => {
           <div className="column is-one-quarter">
             <label className="label">New Password</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="password"
               placeholder="Enter password"
               name="password"
@@ -104,7 +104,7 @@ const Reset = props => {
           <div className="column is-one-quarter">
             <label className="label">Confirm New Password</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="password"
               placeholder="Enter password"
               name="confirmPassword"
@@ -124,7 +124,7 @@ const Reset = props => {
           <div className="column is-one-quarter">
             <label className="label">Email Token</label>
             <input
-              className="input is-rounded has-input-background"
+              className="input has-input-background"
               type="text"
               placeholder="Enter Email Token"
               name="token"
@@ -146,7 +146,7 @@ const Reset = props => {
               className="button is-large is-rounded signin-button"
               type="submit"
             >
-              Reset Password
+              Submit
             </button>
           </div>
         </div>
