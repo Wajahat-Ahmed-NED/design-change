@@ -5,13 +5,14 @@
 }
 
 .column {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .bottom-logo {
   width: 231px !important;
   height: 80px;
 }
+
 .role-button {
   width: 15rem;
   border: none;
@@ -26,9 +27,17 @@
 .role-button-trainee {
   /* background-color: #c67070; */
   background-color: #2F2E2E;
-  
+
   color: #FFFFFF;
 }
+
+.role-button-trainee:hover {
+  /* background-color: #c67070; */
+  background-color: #2F2E2E;
+
+  color: #D37498;
+}
+
 .button-container {
   height: 6rem;
   display: flex;
@@ -48,10 +57,12 @@ button {
   .log {
     width: 500px !important;
   }
+
   .bottom-logo {
     width: 251px !important;
   }
 }
+
 @media only screen and (min-width: 700px) {
   .log {
     margin-left: 0px;
@@ -66,8 +77,6 @@ button {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}
 
-@media only screen and (min-width: 1800px) {
-}
+@media only screen and (min-width: 1800px) {}
