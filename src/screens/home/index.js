@@ -24,16 +24,16 @@ const Home = () => {
       <div className="container">
         <div className="columns is-centered is-horizontal-center">
           <div className="column is-centered columns is-multiline">
-            <div className='columns is-flex-direction-column is-align-items-center'>
+            <div className='columns is-flex is-flex-direction-column is-align-items-center'>
             <img
               src={logo}
               alt="Melton Hill Lake"
-              className="column is-centered is-half log"
+              className="column is-centered is-third-fourth log"
             />
             <img
               src={bottomLogo}
               alt="Melton Hill Lake"
-              className="column is-centered is-half log bottom-logo"
+              className="column is-centered is-third-fourth log bottom-logo"
             />
             </div>
            
