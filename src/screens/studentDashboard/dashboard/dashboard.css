@@ -1,0 +1,34 @@
+.cards {
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25);
+    margin-top: 12px;
+    padding: 20px;
+    width: 278px;
+    position: relative;
+    height: 380px;
+
+}
+
+.card-text
+{
+    font-weight: 700;
+font-size: 16px;
+margin-top: 12px;
+line-height: 20px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 7%;
+    width: 90%;
+    height: 108px;
+}
+
+table>tr>th{
+    background-color: #D37498 !important;
+    color: white !important;
+}
+.section{
+    overflow-x: auto !important;
+}

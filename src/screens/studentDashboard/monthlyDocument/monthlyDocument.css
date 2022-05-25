@@ -164,7 +164,7 @@ input[type="checkbox"] {
 
 .agendaSec1 {
     display: flex;
-
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 }
 
@@ -178,6 +178,11 @@ input[type="checkbox"] {
     color: #141414;
     margin: 20px;
 
+}
+.saveBtn{
+    background-color: #D37498;
+    color: #fff;
+    width: 200px;
 }
 .checkbox-label {
 
@@ -205,6 +210,7 @@ input[type="checkbox"] {
 .agendasec2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .agenda-table>tr>th {
     font-family: Montserrat;
@@ -272,7 +278,7 @@ label {
 .check {
     display: flex;
     flex-wrap: wrap;
-    width: 45%;
+    width: fit-content;
 }
 
 .check>* {
@@ -285,6 +291,7 @@ label {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
+    width: 320px;
     font-size: 13px;
     /* identical to box height */
 
@@ -296,6 +303,7 @@ label {
 .inputFlex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -373,4 +381,19 @@ label {
 
     color: #141414;
 
+}
+
+@media screen and (max-device-width: 715px) {
+    .dropdownCustomize {
+        width: unset;
+    }
+}
+
+@media screen and (max-device-width: 350px) {
+    .inputagenda{
+        width: 100%;
+    }
+    .saveBtn{
+        width: 80%;
+    }
 }

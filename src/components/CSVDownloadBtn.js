@@ -54,7 +54,7 @@ export default function CSVDownloadBtn() {
   return (
     <a
         download={"Experience logs.csv"}
-        className="button is-two-fifths is-rounded dashBtn mt30"
+        className="button is-two-fifths is-rounded saveBtn mt30"
         href={downloadLink}
     >
         {isLoading ? 'Loading ...' : 'Download CSV'}

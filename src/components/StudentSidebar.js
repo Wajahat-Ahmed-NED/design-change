@@ -3,9 +3,9 @@ import { ProSidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
 import { SidebarHeader, SidebarContent } from 'react-pro-sidebar';
 import logo from '../assets/title.png';
-import { BsPencilSquare, BsFillHandIndexFill } from 'react-icons/bs';
+import { BsPencilSquare, BsFillHandIndexFill} from 'react-icons/bs';
 import { CgProfile } from 'react-icons/cg';
-import { FaClipboardList } from 'react-icons/fa';
+import { FaClipboardList,FaChartPie } from 'react-icons/fa';
 import { RiErrorWarningLine } from 'react-icons/ri';
 import { ImUpload3 } from 'react-icons/im';
 import { setShowSidebar, useShowSidebar } from '../redux/reducers/SidebarReducer';
@@ -17,6 +17,7 @@ import { fetchAccrued } from '../redux/sagas/monthlyDocument/fetchAccruedSaga';
 import { useAccruedData } from '../redux/reducers/MonthlyDocReducer';
 
 const routes = [
+  { id: 0, path: '/dashboard' },
   { id: 1, path: '/logHour' },
   { id: 2, path: '/profile-screen' },
   { id: 3, path: '/dashboard-subscription' },
@@ -58,6 +59,10 @@ export default function StudentSidebar() {
       </SidebarHeader>
       <SidebarContent style={{ backgroundColor: '#F4DEEA' }}>
         <Menu iconShape="square mt60">
+          <MenuItem icon={<FaChartPie />} active={activeItem===0} onClick={() => setActiveItem(0)} >
+            Dashboard
+            <Link to="/student/dashboard" />
+          </MenuItem>
           <MenuItem icon={<BsPencilSquare />} active={activeItem===1} onClick={() => setActiveItem(1)} >
             Log experience hours
             <Link to="/student/logHour" />

@@ -108,7 +108,6 @@ border-radius: 5px;
 }
 
 .signin-button {
-    /* background-color: #36818B; */
     background: #D37498;
     border-radius: 30px;
     width: 100%;
@@ -132,7 +131,7 @@ color: #FFFFFF;
 }
 
 .signup-text {
-    margin-left: 12%;
+    /* margin-left: 12%; */
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -198,10 +197,10 @@ margin-left: 30%;
         
         width: 307px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 0%;
        
-    }
+    } */
     .forgot-password-text-sub {
        
         margin-left: 63px ;
@@ -209,15 +208,19 @@ margin-left: 30%;
     
   }
 
-  @media screen and (min-width: 1080px) and (max-width: 1960px) {
+  /* @media screen and (min-width: 1080px) and (max-width: 1960px) {
       .column.is-one-quarter{
           width: 45%;
       }
-  }
+      
+  } */
   @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
     
     .column.is-one-quarter, .column.is-one-quarter-tablet {
         flex: none;
+        width: 45%;
+    }
+    .column.is-one-third{
         width: 45%;
     }
     .forgot-password-text-sub {
@@ -245,10 +248,10 @@ margin-left: 30%;
         width: 600px;
         margin-left: -12px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 0%;
        
-    }
+    } */
     /* .cancel-text {
         
         margin-left: 20% !important;
@@ -257,9 +260,8 @@ margin-left: 30%;
     
   }
 @media screen and (max-device-width:780px){
-    .log-text{
-        background-color: white;
-        padding: 3px;
+    .log-text,.signup-text,.register-checkbox-text{
+        color: #ff0053;
     }
     .Logo{
         background-color: whitesmoke;
@@ -287,10 +289,10 @@ margin-left: 30%;
         
         width: 307px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 30%;
        
-    }
+    } */
     /* .log-text {
         margin-left: 50%;
         
@@ -314,10 +316,10 @@ margin-left: 30%;
         
         width: 307px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 12%;
        
-    }
+    } */
 
     /* .log-text {
         margin-left: 30%;
@@ -360,10 +362,10 @@ margin-left: 30%;
         
         width: 307px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 9%;
        
-    }
+    } */
     .form-layout {
         margin-left: 0%;
     }
@@ -402,10 +404,10 @@ margin-left: 30%;
         
         width: 307px;
     }
-    .signup-text {
+    /* .signup-text {
         margin-left: 7%;
        
-    }
+    } */
     .log-text {
         /* margin-left: 7%; */
         font-size: 14px;

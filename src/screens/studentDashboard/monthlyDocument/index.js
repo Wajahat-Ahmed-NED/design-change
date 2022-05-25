@@ -69,7 +69,7 @@ const MonthlyDocument = () => {
     else if(taskDates?.length > 3 && taskDates?.length <= 6)
       return '#62B4BF';
     else if(taskDates?.length > 6 && taskDates?.length <= 10)
-      return '#36818B';
+      return '#D37498';
     else 
       return '#FFFFFF';
   }
@@ -224,7 +224,7 @@ const MonthlyDocument = () => {
                         </span>
                       </p>
                     </div>
-                    <div className="ml160">
+                    <div>
                       <p>
                         <span>Supervisor: </span>
                         <span>
@@ -264,7 +264,7 @@ const MonthlyDocument = () => {
                     <span>Fieldwork Hours Check</span>
                   </label>
                   <div className="agendasec2 mt20" style={{ margin: '15px 40px'}}>
-                    <div>
+                    <div className='m-3'>
                       <table className='agenda-table'>
                         <tr className="barTableHeader">
                           <th colSpan="2">
@@ -298,7 +298,7 @@ const MonthlyDocument = () => {
                         </tr>
                       </table>
                     </div>
-                    <div>
+                    <div className='m-3'>
                       <table className='agenda-table'>
                         <tr className="barTableHeader">
                           <th colSpan="2">
@@ -332,7 +332,7 @@ const MonthlyDocument = () => {
                         </tr>
                       </table>
                     </div>
-                    <div style={{ marginRight: '20px' }}>
+                    <div  className='m-3' style={{ marginRight: '20px' }}>
                       <p className="checkText">
                         <input type="checkbox" className="checkSize" />
                         Supervised Fieldwork
@@ -422,11 +422,11 @@ const MonthlyDocument = () => {
                       placeholder="Type here..."
                     ></textarea>
                     <div className="inputFlex mt20">
-                      <p>
+                      <p className='mt-2'>
                         Next assignment:
                         <input type="text" className="inputagenda" />
                       </p>
-                      <p>
+                      <p className='mt-2'>
                         Total Unrestricted Hours:
                         <input type="text" className="inputagenda" />
                       </p>
@@ -470,7 +470,7 @@ const MonthlyDocument = () => {
 
                   <div className="column is-two-fifths mt40">
                     <a
-                      className="button is-large is-rounded dashBtn"
+                      className="button is-large is-rounded saveBtn"
                       onClick={_ => {}}
                     >
                       Save Doc

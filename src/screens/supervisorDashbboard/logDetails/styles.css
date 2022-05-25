@@ -34,11 +34,11 @@
 }
 .logForm .log-item-selected {
     margin-top: 1px;
-    border: 2px solid rgb(177, 0, 0);
+    border: 2px solid #D37498;
     box-sizing: border-box;
     border-radius: 5px !important;
     padding: 5px 15px !important;
-    color:rgb(177, 0, 0);
+    color:#D37498;
 
 
 }

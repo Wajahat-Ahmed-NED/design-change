@@ -91,7 +91,7 @@ const MonthlyDocument = () => {
                       </span>
                     </p>
                   </div>
-                  <div className="ml160">
+                  <div>
                     <p>
                       <span>Supervisor: </span>
                       <span>
@@ -130,8 +130,8 @@ const MonthlyDocument = () => {
                   <input type="checkbox" className="checkSize" />
                   <span>Fieldwork Hours Check</span>
                 </label>
-                <div className="agendasec2 mt20" style={{ margin: '15px 40px' }}>
-                  <div>
+                <div className="agendasec2 mt20">
+                  <div className='m-2'>
                     <table className='agenda-table'>
                       <tr className="barTableHeader">
                         <th colSpan="2">
@@ -165,7 +165,7 @@ const MonthlyDocument = () => {
                       </tr>
                     </table>
                   </div>
-                  <div>
+                  <div className='m-2'>
                     <table className='agenda-table'>
                       <tr className="barTableHeader">
                         <th colSpan="2">
@@ -199,7 +199,7 @@ const MonthlyDocument = () => {
                       </tr>
                     </table>
                   </div>
-                  <div style={{ marginRight: '20px' }}>
+                  <div className="m-2" style={{ marginRight: '20px' }}>
                     <p className="checkText">
                       <input type="checkbox" className="checkSize" />
                       Supervised Fieldwork
@@ -328,7 +328,7 @@ const MonthlyDocument = () => {
 
                 <div className="column is-two-fifths mt40">
                   <a
-                    className="button is-large is-rounded dashBtn"
+                    className="button is-large is-rounded saveBtn"
                     onClick={_ => { }}
                   >
                     Save Doc

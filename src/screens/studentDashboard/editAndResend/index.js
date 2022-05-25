@@ -74,7 +74,7 @@ const EditAndResend = () => {
               <textarea class="textarea" placeholder="Type here..."></textarea>
 
               <a
-                className="button is-large is-rounded dashBtn mt30"
+                className="button is-large is-rounded saveBtn mt30"
                 onClick={_ => navigate(`/payment-screen-dashbard`)}
               >
                 Resend

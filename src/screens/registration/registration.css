@@ -243,3 +243,9 @@
 
 
 } */
+
+@media screen and (max-device-width:780px){
+    .register-checkbox-text, .registration-text{
+        color: #ff0053;
+    }
+}

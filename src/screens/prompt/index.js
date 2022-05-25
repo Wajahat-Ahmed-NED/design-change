@@ -9,7 +9,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 import { BsPencilSquare, BsFillHandIndexFill } from 'react-icons/bs';
 import { CgProfile } from 'react-icons/cg';
-import { FaClipboardList } from 'react-icons/fa';
+import { FaClipboardList,FaChartPie } from 'react-icons/fa';
 import { RiErrorWarningLine } from 'react-icons/ri';
 import { ImUpload3 } from 'react-icons/im';
 
@@ -31,6 +31,10 @@ const PromptScreen = () => {
           </SidebarHeader>
           <SidebarContent style={{ backgroundColor: '#f4deea' }}>
             <Menu iconShape="square mt60">
+              <MenuItem icon={<FaChartPie />}>
+                Dashboard
+                <Link to="/dashboard" />
+              </MenuItem>
               <MenuItem icon={<BsPencilSquare />}>
                 Log experience hours
                 <Link to="/logHour" />
@@ -87,7 +91,7 @@ const PromptScreen = () => {
           </SidebarContent>
         </ProSidebar>
       </div>
-      <div className="section has-background">
+      <div className="section has-light-background">
         <button
           className="Toggle_btn"
           onClick={() => setShowSidebar(!showSidebar)}

@@ -5,6 +5,7 @@ import DashboardSubscription from "./dashboardSubscription";
 import SubscriptionScreen2 from "./subscriptionScreen2Dashboard";
 import PaymentDashboardScreen from "./paymentDashboardScreen";
 import LogHour from "./logHour";
+import Dashboard from './dashboard';
 import Flagged from "./flagged";
 import Upload from "./upload";
 import MonthlyDocument from './monthlyDocument';
@@ -28,6 +29,10 @@ export default function StudentDashboard() {
     <div className="sectiondashboard">
         <StudentSidebar />
         <Routes>
+          <Route 
+            path="/dashboard" 
+            element={<Dashboard />} 
+            />
           <Route 
             path="/logHour" 
             element={<LogHour />} 

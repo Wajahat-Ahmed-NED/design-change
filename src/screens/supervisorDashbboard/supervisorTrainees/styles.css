@@ -37,7 +37,7 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
-    background-color: #36818B4D;
+    background-color: #D37498;
     border: none;
     color: #141414;
 }
@@ -70,7 +70,7 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
-        color: #36818B;
+        color: #D37498;
 }
 .trainees .delete-btn {
     font-family: Montserrat;
@@ -112,7 +112,7 @@
 .trainees .primary-button {
     height: 28px;
     width: 70px;
-    background: #36818B;
+    background: #D37498;
     border-radius: 30px;
     color: #FFFFFF;
     font-family: Montserrat;
@@ -176,11 +176,18 @@
     width: 100%;
     flex-wrap: wrap;
 }
+.row-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 .delete-dialog .primary-button {
     height: 28px;
     width: 45%;
-    background: #36818B;
+    background: #D37498;
     border-radius: 30px;
     color: #FFFFFF;
     font-family: Montserrat;

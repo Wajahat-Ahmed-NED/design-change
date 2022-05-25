@@ -114,11 +114,14 @@
     }
    
   }
-  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+  @media screen and (max-device-width:360px) {
     .column.is-two-fifths {
         flex: none;
         width: 100% !important;
     }
+  }
+  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
+    
     .customInput1 {
         width: 125px;
     }

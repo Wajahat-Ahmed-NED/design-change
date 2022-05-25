@@ -13,13 +13,18 @@ const Register = () => {
   return (
     <section className="section has-left-background">
       <div className="columns is-centered">
-        <div className="column "></div>
+        <div className="column is-one-third"></div>
         <div className="column ">
-          <div className={`columns ${role === 'student' && 'register-form-layout'}`}>
+          <div className={`columns is-centered ${role === 'student' && 'register-form-layout'}`}>
             <div className="column is-half">
-              <figure className="image register-image">
-                <img src={logo} alt="Melton Hill Lake" />
-              </figure>
+            <div className="columns is-centered">
+                <div className="column is-one-quarter">
+                  <figure className="image register-image">
+                  <img src={logo} alt="Melton Hill Lake" />
+                </figure>
+                </div>
+              </div>
+              
               <div className="columns is-mobile is-centered">
                 <div className="column">
                   <p className="registration-text">Create Account</p>
@@ -147,7 +152,7 @@ const StudentForm = () => {
               </span>
             </div>
           </div>
-          <div className="columns register-terms-layout">
+          <div className="columns register-form-layout">
             <div className="column is-half">
               <label className="checkbox">
                 <input
@@ -180,9 +185,9 @@ const StudentForm = () => {
             </div>
           </div>
         </form>
-        <div className="columns is-centered">
-          <div className="column">
-            <div className="bottom-text-div">
+        <div className="columns register-form-layout mt15">
+          <div className="column is-half">
+            <div className="bottom-text-div mt-3">
 
               <a
                 className="signup-text"
