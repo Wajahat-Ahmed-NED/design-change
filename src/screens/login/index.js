@@ -85,7 +85,7 @@ const Login = () => {
         </div>
       </div>
       <div className="columns">
-        <div className="column">
+        <div className="column is-one-quarter">
           <p className="welcome-text">Welcome back!, {role === "student" ? "Trainee" : "Supervisor"} </p>
         </div>
       </div>
@@ -150,11 +150,14 @@ const Login = () => {
         </div>
       </form>
 
-      <div className="columns is-centered">
-        <div className="column">
-          <a className="log-text" onClick={onSignup}>
+      <div className="columns form-layout mt15">
+        <div className="column is-one-quarter">
+            <div className="bottom-text-div">
+            <a className="log-text" onClick={onSignup}>
             Don’t have an account? Sign Up
           </a>
+          </div>
+          
         </div>
       </div>
 

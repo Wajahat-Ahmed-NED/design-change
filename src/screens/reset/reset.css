@@ -1,10 +1,10 @@
 @media screen and (min-device-width: 548px)
   and (max-device-width: 768px) {
   
-    .welcome-text {
+    /* .welcome-text {
         margin-left: 30%;
         
-    }
+    } */
     .customFlex {
         
         width: 307px;
@@ -13,14 +13,14 @@
         margin-left: 30%;
        
     }
-    .log-text {
+    /* .log-text {
         margin-left: 30%;
         
-    }
-    .cancel-text {
+    } */
+    /* .cancel-text {
        
         margin-left: 45%;
        
-    }
+    } */
     
   }

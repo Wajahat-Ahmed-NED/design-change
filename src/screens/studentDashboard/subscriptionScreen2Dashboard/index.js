@@ -49,7 +49,7 @@ const SubscriptionScreen2 = () => {
               Change Subscription Plan
             </p>
 
-            <div class="row subsCard mt120">
+            <div class="row-start subsCard mt120">
               {
                 isLoading ? 
                 <LoadingSpinner style={{ height: '230px', width: '50%'}}/> 
@@ -82,7 +82,7 @@ const SubscriptionScreen2 = () => {
                 ))
               }
             </div>
-            <div className="column is-one-third mt120">
+            <div className="column is-one-quarter mt120 button-bottom">
               <a
                 className="button is-large is-rounded dashBtn"
                 onClick={_ => navigate(`/payment-screen-dashbard?subscription=${selected}`)}

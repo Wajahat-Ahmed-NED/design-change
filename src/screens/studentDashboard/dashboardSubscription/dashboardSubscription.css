@@ -134,6 +134,9 @@ color:  #2F2E2E;
     width: 60%;
 }
 
+.button-bottom{
+    text-align: unset;
+}
 .changelink{
 color: #D37498;
     
@@ -144,4 +147,10 @@ color: #D37498;
     margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-device-width:980px) {
+    .button-bottom{
+        text-align: center;
+    }
 }

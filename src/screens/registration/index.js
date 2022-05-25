@@ -182,12 +182,15 @@ const StudentForm = () => {
         </form>
         <div className="columns is-centered">
           <div className="column">
-            <a
-              className="signup-text"
-              onClick={_ => navigate(`/login/student`)}
-            >
-              Already have an account? <strong>Sign In</strong>
-            </a>
+            <div className="bottom-text-div">
+
+              <a
+                className="signup-text"
+                onClick={_ => navigate(`/login/student`)}
+              >
+                Already have an account? <strong>Sign In</strong>
+              </a>
+              </div>
           </div>
         </div>
       </div>
@@ -250,7 +253,7 @@ const SupervisorForm = () => {
 
       <div className="columns is-centered">
         <div className="column"></div>
-        <div className="column" style={{ paddingLeft: '10%' }}>
+        <div className="column">
           <div className="columns register-form-layout2">
             <div className="column is-half">
               <label className="label">Full Name</label>
@@ -438,12 +441,15 @@ const SupervisorForm = () => {
           </div>
           <div className="columns register-form-layout2">
             <div className="column is-half">
-              <a
-                className="signup-text supervisor-signup-text"
-                onClick={_ => navigate(`/login/supervisor`)}
-              >
-                Already have an account? <strong>Sign In</strong>
-              </a>
+              <div className="bottom-text-div">
+
+                <a
+                  className="signup-text supervisor-signup-text"
+                  onClick={_ => navigate(`/login/supervisor`)}
+                >
+                  Already have an account? <strong>Sign In</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>

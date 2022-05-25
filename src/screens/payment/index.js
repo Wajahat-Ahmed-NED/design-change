@@ -40,12 +40,12 @@ const Payment = props => {
         <div className="column"></div>
         <div className="column">
           <div className="columns is-mobile is-centered">
-            <div className="column">
+            <div className="column is-four-fifths">
               <p className="addPaymentText">Add Payment Method</p>
             </div>
           </div>
 
-          <div className="columns register-form-layout mt80">
+          <div className="columns mt80 mb-5">
             <div className="column is-half">
               <label className="label ml0">Card Details:</label>
             </div>
@@ -56,9 +56,10 @@ const Payment = props => {
               <CardPaymentForm onSuccess={onTokenGenerated} />
             </div>
           </div>
-          <div className="columns">
-            <div className="column ">
+          <div className="columns is-centered">
+            <div className="column is-half bottom-text-div">
               <button
+              style={{ textAlign: 'center' }}
                 className="signup-text"
                 onClick={_ => navigate(`/login/`+role)}
               >

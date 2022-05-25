@@ -70,7 +70,7 @@ const ForgotPassword = () => {
         </div>
       </div>
       <div className="columns">
-        <div className="column">
+        <div className="column is-one-quarter">
           <p className="welcome-text">Forgot Password</p>
         </div>
       </div>
@@ -113,11 +113,13 @@ const ForgotPassword = () => {
         </div>
       </form>
 
-      <div className="columns">
-        <div className="column">
+      <div className="columns form-layout mt15">
+      <div className="column is-one-quarter">
+            <div className="bottom-text-div">
           <a className="cancel-text forgotCancel" onClick={_ => navigate('/')}>
             Cancel
           </a>
+          </div>
         </div>
       </div>
     </section>

@@ -111,14 +111,14 @@ const CardPaymentForm = ({ onSuccess }) => {
             <input className="input has-input-background" type="text" name='cardholderName' value={cardholder} onChange={handleChange}/>
             </div>
         </div>
-        <div className="columns is-centered">
-        <div className="column">
+        <div className="columns is-centered mt120">
+        <div className="column  is-half bottom-text-div">
           <button
           style={{ textAlign: 'center' }}
             className="button is-large is-rounded dashBtn"
             type="submit" disabled={!stripe}
             >
-            Pay
+            Continue
           </button>
         </div>
         </div>

@@ -23,7 +23,7 @@ const Subcription = () => {
         <div className="column"></div>
         <div className="column">
           <div className="columns is-mobile is-centered">
-            <div className="column">
+            <div className="column is-four-fifths">
               <p className="Subscription-text">Choose Subscription</p>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Subcription = () => {
                 <LoadingSpinner style={{ height: '230px', width: '50%' }} />
                 :
                 subscriptions.map(item => (
-                  <div className="col-md-4 col-lg-4 col-sm-4" key={item.id}>
+                  <div className="col-md-4 col-lg-4 col-sm-4 mr-5" key={item.id}>
                     <label>
                       <input
                         type="radio"
@@ -61,8 +61,8 @@ const Subcription = () => {
             }
           </div>
 
-          <div className="columns register-form-layout1 mt120">
-            <div className="column ">
+          <div className="columns is-centered mt120">
+            <div className="column is-half bottom-text-div">
               <a
                 className="button is-large continue-button is-rounded signin-button size_btn"
                 onClick={_ => navigate('/payment?subscription=' + selected)}
@@ -73,7 +73,7 @@ const Subcription = () => {
           </div>
 
           <div className="columns is-centered ">
-            <div className="column">
+            <div className="column is-half bottom-text-div">
               <button
                 style={{ textAlign: 'center' }}
                 className="cancel-text SubCancelText"
