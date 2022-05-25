@@ -1,417 +1,296 @@
 .has-background {
-    background-image: url('../../assets/right_side_background.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right center;
-    min-height: 100vh;
+  background-image: url("../../assets/right_side_background.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  min-height: 100vh;
 }
 .has-light-background {
-    background-image: url('../../assets/right-side-light-background.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right center;
-    min-height: 100vh;
+  background-image: url("../../assets/right-side-light-background.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  min-height: 100vh;
 }
 
 .section {
-    width: 100%;
+  width: 100%;
 }
 
 .has-left-background {
-    background-image: url('../../assets/left_side_background.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: left center;
-    min-height: 100vh;
+  background-image: url("../../assets/left_side_background.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
 }
 .has-left-light-background {
-    background-image: url('../../assets/left_side_background.png');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: left center;
-    min-height: 100vh;
+  background-image: url("../../assets/left_side_background.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 100vh;
 }
 
 .row-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .remember-me-layout {
-    margin-left: 4%;
-    width: 100vh;
-    color: #141414;
-
+  margin-left: 4%;
+  width: 100vh;
+  color: #141414;
 }
 
 .forgot-pass {
-    color: #141414;
-    text-decoration: underline;
-    width: 100%;
+  color: #141414;
+  text-decoration: underline;
+  width: 100%;
 }
 
 .welcome-text {
-    
-/* margin-left: 110px; */
-margin-left: 70px;
-font-family: Suranna;
-font-style: normal;
-text-align: center;
-font-weight: 400;
-font-size: 48px;
-line-height: 63px;
-color: #141414;
-
+  margin-left: 70px;
+  font-family: Suranna;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 63px;
+  color: #141414;
 }
 
-
 .registration-text {
-    color: #141414;
-    font-family: Suranna;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    text-align: center;
-    line-height: 63px;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    /* margin-left: 12%; */
-
+  color: #141414;
+  font-family: Suranna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+  line-height: 63px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .register-image {
-    width: 271px;
-    height: 147px;
-    margin-left: 12%;
+  width: 271px;
+  height: 147px;
+  margin-left: 12%;
 }
 
 .label {
-    color: #141414;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 15px;
-    margin-left: 15px;
+  color: #141414;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  margin-left: 15px;
 }
 
 .has-input-background {
-  
-    /* border: 1px solid #C67070; */
-box-sizing: border-box;
-border: 1px solid #939597;
-border-radius: 5px;
-
+  box-sizing: border-box;
+  border: 1px solid #939597;
+  border-radius: 5px;
 }
 
 .signin-button {
-    background: #D37498;
-    border-radius: 30px;
-    width: 100%;
-height: 60px;
-    font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
+  background: #d37498;
+  border-radius: 30px;
+  width: 100%;
+  height: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 .form-layout {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .register-form-layout {
-    margin-left: 5%;
+  margin-left: 5%;
 }
 
 .signup-text {
-    /* margin-left: 12%; */
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-   
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
 
+  color: #141414;
+}
+.bottom-text-div {
+  text-align: center;
+}
+.log-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #141414;
+}
+.Logo {
+  width: 271px;
+  height: 147px;
+  margin-left: 30%;
+}
+.row-flex .checkbox {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  color: #141414;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.customFlex {
+  width: 500px;
+}
 
-    color: #141414;
-    
-}
-.bottom-text-div
-{
-    text-align: center;
-}
-.log-text{
-    /* margin-left: 7%; */
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    color: #141414;
-}
-.Logo{
+@media screen and (min-device-width: 1100px) and (max-device-width: 1490px) {
+  .Logo {
     width: 271px;
-height: 147px;
-margin-left: 30%;
-}
-.row-flex .checkbox{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    color: #141414;
-    font-size: 12px;
-    margin-left: 10px;
-}
-.customFlex{
-   
-    width: 500px;
-}
-
-
-
-
-
-
-
-  @media screen and (min-device-width: 1100px)  and (max-device-width: 1490px)  {
-    .Logo {
-        width: 271px;
-        height: 147px;
-        margin-left: 20%;
-    }
-    /* .welcome-text {
-        margin-left: 50px;
-        
-    } */
-    /* .log-text {
-        margin-left: 6%;
-    } */
-    .customFlex {
-        
-        width: 307px;
-    }
-    /* .signup-text {
-        margin-left: 0%;
-       
-    } */
-    .forgot-password-text-sub {
-       
-        margin-left: 63px ;
-    }
-    
+    height: 147px;
+    margin-left: 20%;
   }
-
-  /* @media screen and (min-width: 1080px) and (max-width: 1960px) {
-      .column.is-one-quarter{
-          width: 45%;
-      }
-      
-  } */
-  @media screen and (min-device-width: 770px)  and (max-device-width: 1080px)  {
-    
-    .column.is-one-quarter, .column.is-one-quarter-tablet {
-        flex: none;
-        width: 45%;
-    }
-    .column.is-one-third{
-        width: 45%;
-    }
-    .forgot-password-text-sub {
-       
-        margin-left: 50px !important;
-    }
-    .Logo {
-        width: 271px;
-        height: 147px;
-        margin-left: 18%;
-    }
-    /* .welcome-text {
-        margin-left: 70px;
-        
-    } */
-    /* .InputSize{
-        width: 140%;
-    } */
-    /* .log-text {
-        margin-left: 13%;
-        
-    } */
-    .customFlex {
-        
-        width: 600px;
-        margin-left: -12px;
-    }
-    /* .signup-text {
-        margin-left: 0%;
-       
-    } */
-    /* .cancel-text {
-        
-        margin-left: 20% !important;
-        
-    } */
-    
+  .customFlex {
+    width: 307px;
   }
-@media screen and (max-device-width:780px){
-    .log-text,.signup-text,.register-checkbox-text{
-        color: #ff0053;
-    }
-    .Logo{
-        background-color: whitesmoke;
-        border-radius: 12px;
-    }
+  .forgot-password-text-sub {
+    margin-left: 63px;
+  }
+}
+
+@media screen and (min-device-width: 770px) and (max-device-width: 1080px) {
+  .column.is-one-quarter,
+  .column.is-one-quarter-tablet {
+    flex: none;
+    width: 45%;
+  }
+  .column.is-one-third {
+    width: 45%;
+  }
+  .forgot-password-text-sub {
+    margin-left: 50px !important;
+  }
+  .Logo {
+    width: 271px;
+    height: 147px;
+    margin-left: 18%;
+  }
+  .customFlex {
+    width: 600px;
+    margin-left: -12px;
+  }
+}
+@media screen and (max-device-width: 780px) {
+  .log-text,
+  .signup-text,
+  .register-checkbox-text {
+    color: #ff0053;
+  }
+  .Logo,
+  .register-image {
+    background-color: whitesmoke;
+    border-radius: 12px;
+  }
 }
 
 @media screen and (min-device-width: 750px) and (max-device-width: 1500px) {
-    .welcome-text{
-        margin-left: 40px;
-    }
+  .welcome-text {
+    margin-left: 40px;
+  }
 }
 
-/* @media screen and (min-device-width: 548px) and (max-device-width: 749px) {
-    .welcome-text {
-        margin-left: 30%;
-        
-    }
-} */
-  @media screen and (min-device-width: 548px)
-  and (max-device-width: 768px) {
-  
-    
-    .customFlex {
-        
-        width: 307px;
-    }
-    /* .signup-text {
-        margin-left: 30%;
-       
-    } */
-    /* .log-text {
-        margin-left: 50%;
-        
-    } */
-   
+@media screen and (min-device-width: 548px) and (max-device-width: 768px) {
+  .customFlex {
+    width: 307px;
+  }
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 700px) {
+  .welcome-text {
+    margin-left: 12%;
+  }
+  .Logo {
+    width: 271px;
+    height: 147px;
+  }
+  .customFlex {
+    width: 307px;
+  }
+  .form-layout {
+    margin-left: 0%;
+  }
+  .forgot-password-text-sub {
+    font-size: 12px;
+    line-height: 15px;
+
+    margin-left: 10px !important;
+  }
+}
+
+@media screen and (max-device-width: 420px) {
+  .welcome-text {
+    margin-left: 9%;
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 420px) {
+  .forgot-password-text-sub {
+    font-size: 12px;
+    line-height: 15px;
+
+    margin-left: 10px !important;
+  }
+  .Logo {
+    width: 271px;
+    height: 147px;
+    margin-left: 12%;
+  }
+  .customFlex {
+    width: 307px;
+  }
+  .form-layout {
+    margin-left: 0%;
+  }
+}
+@media screen and (max-device-width: 375px) {
+  .Logo {
+    width: 271px;
+    height: 147px;
+    margin-left: 0%;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 360px) {
+  .welcome-text {
+    margin-left: 9%;
+    font-size: 35px;
+  }
+  .forgot-password-text-sub {
+    font-size: 12px;
+    line-height: 15px;
+
+    margin-left: 10px;
   }
 
- 
-
-  @media screen and (min-device-width: 425px)  and (max-device-width: 700px) {
-    .welcome-text {
-        margin-left: 12%;
-        
-    }
-    .Logo {
-        width: 271px;
-        height: 147px;
-        /* margin-left: 15%; */
-    }
-    .customFlex {
-        
-        width: 307px;
-    }
-    /* .signup-text {
-        margin-left: 12%;
-       
-    } */
-
-    /* .log-text {
-        margin-left: 30%;
-         */
-    /* } */
-    .form-layout {
-        margin-left: 0%;
-    }
-    .forgot-password-text-sub {
-        
-        font-size: 12px;
-        line-height: 15px;
-        
-        margin-left: 10px !important;
-    }
+  .form-layout {
+    margin-left: 0%;
   }
-
-  @media screen and (max-device-width: 420px) {
-    .welcome-text {
-        margin-left: 9%;
-        font-size: 35px;
-    }
+  .customFlex {
+    width: 307px;
   }
-
-  @media screen and (min-device-width: 375px)  and (max-device-width: 420px) {
-    
-    .forgot-password-text-sub {
-       
-        font-size: 12px;
-        line-height: 15px;
-       
-        margin-left: 10px !important;
-    }
-    .Logo {
-        width: 271px;
-        height: 147px;
-        margin-left: 12%;
-    }
-    .customFlex {
-        
-        width: 307px;
-    }
-    /* .signup-text {
-        margin-left: 9%;
-       
-    } */
-    .form-layout {
-        margin-left: 0%;
-    }
-    /* .log-text {
-        margin-left: 9%;
-        
-    } */
+  .log-text {
+    font-size: 14px;
   }
-  @media screen and (max-device-width: 375px) {
-    .Logo {
-        width: 271px;
-        height: 147px;
-        margin-left: 0%;
-    }
-  }
-  @media screen and (min-device-width: 320px)  and (max-device-width: 360px) {
-    .welcome-text {
-        margin-left: 9%;
-        font-size: 35px;
-        
-    }
-    .forgot-password-text-sub {
-       
-        font-size: 12px;
-        line-height: 15px;
-      
-        
-       
-        margin-left: 10px;
-    }
-    
-    .form-layout {
-        margin-left: 0%;
-    }
-    .customFlex {
-        
-        width: 307px;
-    }
-    /* .signup-text {
-        margin-left: 7%;
-       
-    } */
-    .log-text {
-        /* margin-left: 7%; */
-        font-size: 14px;
-        
-    }
-  }
-   
+}

@@ -1,26 +1,8 @@
 @media screen and (min-device-width: 548px)
   and (max-device-width: 768px) {
-  
-    /* .welcome-text {
-        margin-left: 30%;
-        
-    } */
     .customFlex {
         
         width: 307px;
     }
-    /* .signup-text {
-        margin-left: 30%;
-       
-    } */
-    /* .log-text {
-        margin-left: 30%;
-        
-    } */
-    /* .cancel-text {
-       
-        margin-left: 45%;
-       
-    } */
     
   }

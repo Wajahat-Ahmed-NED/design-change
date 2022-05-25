@@ -19,7 +19,6 @@
 .paymentInputDiv{
     display: flex;
     margin-bottom: 20px;
-    /* justify-content: flex-start; */
 }
 .paymentInputDiv > div{
 margin-left: 0px;
@@ -39,7 +38,6 @@ margin-left: 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* margin-left: 8%; */
 }
 .ml0{
     margin-left: 0% !important;
@@ -54,7 +52,6 @@ margin-left: 0px;
     .addPaymentText {
         
         font-size: 48px;
-        /* margin-left: 28%; */
     }
     .paymentInputDiv {
         display: flex;
@@ -74,7 +71,6 @@ margin-left: 0px;
     .addPaymentText {
         
         font-size: 40px;
-        /* margin-left: 26%; */
     }
     .paymentInputDiv {
         display: flex;
@@ -103,7 +99,6 @@ margin-left: 0px;
     .addPaymentText {
         
         font-size: 48px;
-        /* margin-left: 26%; */
     }
     .paymentInputDiv {
         display: flex;
@@ -122,3 +117,9 @@ margin-left: 0px;
 
     
   }
+
+  @media screen and (max-device-width:780px) {
+    .addPaymentText{
+        color: #ff0053;
+    }
+}

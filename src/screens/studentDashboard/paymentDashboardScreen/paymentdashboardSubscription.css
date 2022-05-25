@@ -42,7 +42,6 @@
     display: flex;
     margin-left: 0% !important;
     margin-bottom: 20px;
-    /* justify-content: flex-start; */
 }
 .ml10{
     margin-left: 18px;
@@ -114,7 +113,7 @@
     }
    
   }
-  @media screen and (max-device-width:360px) {
+  @media screen and (max-device-width:375px) {
     .column.is-two-fifths {
         flex: none;
         width: 100% !important;

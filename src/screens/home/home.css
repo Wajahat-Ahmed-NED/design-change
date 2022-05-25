@@ -1,7 +1,5 @@
 .is-horizontal-center {
   justify-content: center;
-
-  /* margin-top: 5%; */
 }
 
 .column {
@@ -19,20 +17,17 @@
 }
 
 .role-button-student {
-  /* background-color: #fff2cc; */
   background-color: #D37498;
   color: #FFFFFF;
 }
 
 .role-button-trainee {
-  /* background-color: #c67070; */
   background-color: #2F2E2E;
 
   color: #FFFFFF;
 }
 
 .role-button-trainee:hover {
-  /* background-color: #c67070; */
   background-color: #2F2E2E;
 
   color: #D37498;

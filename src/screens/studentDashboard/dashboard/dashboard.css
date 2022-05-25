@@ -32,3 +32,9 @@ table>tr>th{
 .section{
     overflow-x: auto !important;
 }
+
+.doughnut-div
+{
+    width: 200px;
+    margin: auto;
+}
