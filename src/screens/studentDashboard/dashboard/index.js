@@ -6,7 +6,9 @@ import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { setShowSidebar, useShowSidebar } from '../../../redux/reducers/SidebarReducer';
 import './dashboard.css'
-
+import Icon from "../../../assets/Group.png";
+import Icon2 from "../../../assets/Group2.png";
+import Icon3 from "../../../assets/Group3.png";
 
 const Dashboard = () => {
     const showSidebar = useShowSidebar();
@@ -32,6 +34,7 @@ const Dashboard = () => {
                         <div className="column row-space-evenly">
                             <div className="cards bottom-text-div">
                                 <p className='card-text'> TOTAL HOURS COMPLETED </p>
+                                <img src={Icon}/>
                                 <div className='bottom'>
                                     <p className='card-text'> 28.56% Completed </p>
                                     <p className='card-text'> Non-Concentrated: 224 <br></br>
@@ -42,6 +45,8 @@ const Dashboard = () => {
                             </div>
                             <div className="cards bottom-text-div">
                                 <p className='card-text'> RESTRICTED VS UNRESTRICTED HOURS </p>
+                                <img src={Icon2}/>
+
                                 <div className='bottom'>
 
                                     <p className='card-text'> 31.7% Restricted
@@ -54,6 +59,8 @@ const Dashboard = () => {
                             </div>
                             <div className="cards bottom-text-div">
                                 <p className='card-text'> SUPERVISED HOURS </p>
+                                <img src={Icon3}/>
+                                
                                 <div className='bottom'>
                                     <p className='card-text'> 43.3% Supervised </p>
                                     <p className='card-text'> 
@@ -66,7 +73,7 @@ const Dashboard = () => {
 
                     </div>
                     <p className="headingMain mt30">Monthly Details</p>
-                    <div className="mt30 agendaTable mt30" style={{ margin: '20px 20px' }}>
+                    <div className="mt30 agendaTable mt30">
                     <table>
                       <tr className="noBorder">
                         <th className="agendaTableHeader">Month</th>
